@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>Our Menu</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="section" id="chicken">
-            <div class="section-header">Chicken</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xs navbar-light bg-light">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Chicken</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Beef</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sushi</a></li>
+            </ul>
         </div>
-        <div class="section" id="beef">
-            <div class="section-header">Beef</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        </div>
-        <div class="section" id="sushi">
-            <div class="section-header">Sushi</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container-fluid">
+        <h1 class="text-center my-4">Our Menu</h1>
+        <div class="row">
+            <div class="col-12" style="height: 1000px; background-color: #f8f9fa;">
+                <!-- Content goes here -->
+            </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
