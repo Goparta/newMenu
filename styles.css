@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: static;
+}
+
+.container-fluid {
+    min-height: 1000px; /* Задано висоту для демонстрації прокрутки */
+}
